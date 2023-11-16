@@ -53,7 +53,7 @@
     <jpa:repositories base-package="org.example.repo"/>
 
     <bean name="User" class="org.example.entities.User" scope="prototype"/>
-    <bean name="Objective" class="org.example.entities.Goal" scope="prototype"/>
+    <bean name="Goal" class="org.example.entities.Goal" scope="prototype"/>
     <bean name="Task" class="org.example.entities.Task" scope="prototype"/>
     <bean name="UserService" class="org.example.services.UserServiceImplement"/>
     <bean name="GoalService" class="org.example.services.GoalService"/>
