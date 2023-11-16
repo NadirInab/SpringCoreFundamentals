@@ -30,4 +30,12 @@ public class Task {
     @Setter
     private Goal goal;
 
+    @Override
+    public String toString() {
+        return "Task{ " +
+                "id=" + id +
+                ", description '" + getName() + '\'' +
+                " Created At " + getCreatedDate() +
+                '}';
+    }
 }

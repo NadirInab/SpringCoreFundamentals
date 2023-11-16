@@ -1,4 +1,7 @@
 package org.example.repo;
 
-public interface GoalRepo {
+import org.example.entities.Goal;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GoalRepo extends JpaRepository <Goal, Long> {
 }
